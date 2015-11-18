@@ -1,1 +1,1 @@
-karthik bangera.github.io
+#Currently demo site for the restaurant reservation system

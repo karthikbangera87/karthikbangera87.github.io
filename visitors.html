@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+        <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+        <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+        <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+        <!--
+        Used the Grill Template from
+        http://www.templatemo.com/free-website-templates/417-grill
+        -->
+        <head>
+            <meta charset="utf-8">
+            <title>Indian Spice</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width">
+
+            <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/font-awesome.css">
+            <link rel="stylesheet" href="css/templatemo_style.css">
+            <link rel="stylesheet" href="css/templatemo_misc.css">
+            <link rel="stylesheet" href="css/flexslider.css">
+            <link rel="stylesheet" href="css/testimonails-slider.css">
+
+            <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        </head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <img alt="Brand" src="images/logo3.jpeg">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="reservation_list.html">View/Modify Reservations</span></a></li>
+                <li><a href="seating.html">Seat Map</a></li>
+                <li><a href="profile_settings.html">Profile Settings</a></li>
+                <li><a href="visitors.html">Visitors log</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class ="container">
+
+    <div class="col-md-4 ">
+
+        <div class="form-group">
+            <label>Reservation Date</label>
+            <input class="form-control" id="reservere" placeholder="date"type="date"/>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">From Reservation Time</label>
+            <input type="time" class="form-control" id="exampleInputEmail1" placeholder="Time">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">To Reservation Time</label>
+            <input type="time" class="form-control" id="exampleInputEmail1" placeholder="Time">
+        </div>
+        <h1>OR</h1>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Enter the Reservation ID</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Reservation ID">
+        </div>
+        <h1>OR</h1>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Enter the Email address</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <a href = "#" class="btn btn-primary btn-lg">Filter results</a>
+
+
+
+    </div>
+
+    <div class="col-md-offset-1 col-md-7">
+
+        <br/>
+        <div class="panel-group" id="accordion">
+            <h2>List of reservations for the based on the search :</h2><br/>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Reservation ID: UAV32456-958-959</a>
+
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <p><h5>Reservation Date:11-17-2015</h5>
+                        <h5>Reservation from: 10AM - 12 PM </h5>
+                        <h5>Duration of Reservation : 2 hours</h5>
+                        <h5>No.of persons:4</h5>
+                        <h5>Name:Testing123</h5>
+                        <h5>Contact Number:999-999-9999</h5></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Reservation ID: UGV32456-958-859</a>
+
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><h5>Reservation Date:11-17-2015</h5>
+                        <h5>Reservation from: 1PM - 3 PM </h5>
+                        <h5>Duration of Reservation : 2 hours</h5>
+                        <h5>No.of persons:3</h5>
+                        <h5>Name:Testing345</h5>
+                        <h5>Contact Number:999-999-9999</h5></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Reservation ID: TAV32456-358-959</a>
+
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p><h5>Reservation Date:11-17-2015</h5>
+                        <h5>Reservation from: 10AM - 12 PM </h5>
+                        <h5>Duration of Reservation : 2 hours</h5>
+                        <h5>No.of persons:3</h5>
+                        <h5>Name:Testing567</h5>
+                        <h5>Contact Number:999-999-9999</h5></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="js/vendor/jquery-1.11.0.min.js"></script>
+<script src="js/vendor/jquery.gmap3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+
+
+
+</body>
+</html>
